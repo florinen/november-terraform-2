@@ -10,7 +10,7 @@ resource "aws_instance" "example" {
  tags {
    enviroments ="${var.enviroment}${count.index +1 }"
    created_by = "${var.created_by}"
-}
+ }
 
 }
 

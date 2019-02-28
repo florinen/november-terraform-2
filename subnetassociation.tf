@@ -3,3 +3,6 @@ resource "aws_route_table_association" "dev" {
  route_table_id = "${aws_route_table.dev.id}"
 
 }
+
+
+
